@@ -1,0 +1,111 @@
+[2025-06-15 17:08:39] --- NEW CHECKOUT PROCESS STARTED ---
+[2025-06-15 17:08:39] POST Data: Array
+(
+    [direct_produk_id] => 2
+    [direct_quantity] => 1
+    [direct_variasi_id] => 
+    [is_direct_buy] => 1
+    [coupon_code_applied] => PFG30
+    [coupon_discount_amount] => 13500
+    [kurir] => Array
+        (
+            [3] => 3
+        )
+
+    [ongkir_values] => Array
+        (
+            [3] => 5000
+        )
+
+    [catatan_penjual] => Array
+        (
+            [3] => 
+        )
+
+    [catatan_pelanggan] => 
+    [metode_pembayaran] => 9
+)
+
+[2025-06-15 17:08:39] Pengguna ID: 4
+[2025-06-15 17:08:39] Coupon Code Input: ''
+[2025-06-15 17:08:39] Is Buy Now: Yes
+[2025-06-15 17:08:39] Buy Now Details - Produk ID: 2, Qty: 1, Variasi ID: 
+[2025-06-15 17:08:39] Kurir ID (from array): 3
+[2025-06-15 17:08:39] No Selected Cart IDs.
+[2025-06-15 17:08:39] Transaction started.
+[2025-06-15 17:08:39] Metode Pembayaran: COD
+[2025-06-15 17:08:39] Customer Address: Jl. Cinta Raya, Rt 12/ RW 15
+[2025-06-15 17:08:39] Stock check for product ID 2: Req=1, Avail=446
+[2025-06-15 17:08:39] Added Buy Now Item: Buku Tulis Tiara Campus - 50 Lembar HVS 80 Gsm, Subtotal: 45000
+[2025-06-15 17:08:39] Total Harga Semua Produk (before shipping): 45000
+[2025-06-15 17:08:39] Total Berat Semua Produk: 0.15
+[2025-06-15 17:08:39] Total Ongkir: 5000
+[2025-06-15 17:08:39] Order Code: ORD1749982119670
+[2025-06-15 17:08:39] Initial Order Status: diproses
+[2025-06-15 17:08:39] Total Pembayaran Final (before coupon): 50000
+[2025-06-15 17:08:39] No coupon code input provided. No discount applied.
+[2025-06-15 17:08:39] Binding parameters for pesanan insert. Types: iisssssdsssdii
+[2025-06-15 17:08:39] Executing pesanan insert with values: PenggunaID=4, KurirID=3, TotalHarga=50000, KodeKupon=NULL, DiskonKupon=0, DiskonID=NULL
+[2025-06-15 17:08:39] Pesanan Inserted. Pesanan ID: 62
+[2025-06-15 17:08:39] Pembayaran Inserted. Jumlah Bayar: 50000
+[2025-06-15 17:08:39] Pengiriman Inserted.
+[2025-06-15 17:08:39] Detail Pesanan Inserted: Produk ID 2, Qty 1, Harga 45000
+[2025-06-15 17:08:39] Updated product stock for ID 2 by -1
+[2025-06-15 17:08:39] Transaction committed successfully.
+[2025-06-15 17:08:39] Redirecting to riwayat_pesanan.php with success message.
+[2025-06-15 17:13:53] --- NEW CHECKOUT PROCESS STARTED ---
+[2025-06-15 17:13:53] POST Data: Array
+(
+    [direct_produk_id] => 2
+    [direct_quantity] => 1
+    [direct_variasi_id] => 
+    [is_direct_buy] => 1
+    [coupon_code_applied] => PFG30
+    [coupon_discount_amount] => 13500
+    [kurir] => Array
+        (
+            [3] => 3
+        )
+
+    [ongkir_values] => Array
+        (
+            [3] => 5000
+        )
+
+    [catatan_penjual] => Array
+        (
+            [3] => 
+        )
+
+    [catatan_pelanggan] => 
+    [metode_pembayaran] => 6
+)
+
+[2025-06-15 17:13:53] Pengguna ID: 4
+[2025-06-15 17:13:53] Coupon Code Input: ''
+[2025-06-15 17:13:53] Is Buy Now: Yes
+[2025-06-15 17:13:53] Buy Now Details - Produk ID: 2, Qty: 1, Variasi ID: 
+[2025-06-15 17:13:53] Kurir ID (from array): 3
+[2025-06-15 17:13:53] No Selected Cart IDs.
+[2025-06-15 17:13:53] Transaction started.
+[2025-06-15 17:13:53] Metode Pembayaran: DANA
+[2025-06-15 17:13:53] Customer Address: Jl. Cinta Raya, Rt 12/ RW 15
+[2025-06-15 17:13:53] Stock check for product ID 2: Req=1, Avail=445
+[2025-06-15 17:13:53] Added Buy Now Item: Buku Tulis Tiara Campus - 50 Lembar HVS 80 Gsm, Subtotal: 45000
+[2025-06-15 17:13:53] Total Harga Semua Produk (before shipping): 45000
+[2025-06-15 17:13:53] Total Berat Semua Produk: 0.15
+[2025-06-15 17:13:53] Total Ongkir: 5000
+[2025-06-15 17:13:53] Order Code: ORD1749982433122
+[2025-06-15 17:13:53] Initial Order Status: menunggu_pembayaran
+[2025-06-15 17:13:53] Total Pembayaran Final (before coupon): 50000
+[2025-06-15 17:13:53] No coupon code input provided. No discount applied.
+[2025-06-15 17:13:53] Binding parameters for pesanan insert. Types: iisssssdssd i
+[2025-06-15 17:13:53] Executing pesanan insert with values: PenggunaID=4, KurirID=3, TotalHarga=50000, DiskonID=NULL
+[2025-06-15 17:13:53] Pesanan Inserted. Pesanan ID: 63
+[2025-06-15 17:13:53] Pembayaran Inserted. Jumlah Bayar: 50000
+[2025-06-15 17:13:53] Pengiriman Inserted.
+[2025-06-15 17:13:53] Detail Pesanan Inserted for Produk ID: 2, Variasi ID: N/A, Qty: 1
+[2025-06-15 17:13:53] All order details inserted.
+[2025-06-15 17:13:53] Updating stock for produk ID 2, quantity: 1
+[2025-06-15 17:13:53] Product/variation stocks updated.
+[2025-06-15 17:13:53] Transaction committed successfully.
